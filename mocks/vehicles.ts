@@ -1,0 +1,48 @@
+import { Vehicle } from '@/types';
+
+export const vehicles: Vehicle[] = [
+  {
+    id: '1',
+    name: 'Economy',
+    type: 'Sedan',
+    image: 'https://images.unsplash.com/photo-1549924231-f129b911e442?q=80&w=400&auto=format&fit=crop&ixlib=rb-4.0.3',
+    capacity: 4,
+    seatingCapacity: 3,
+    price: 25,
+    rating: 4.5,
+    features: ['AC', 'Music System', 'GPS'],
+  },
+  {
+    id: '3',
+    name: 'Premium',
+    type: 'Luxury Sedan',
+    image: 'https://images.unsplash.com/photo-1563720223185-11003d516935?q=80&w=400&auto=format&fit=crop&ixlib=rb-4.0.3',
+    capacity: 4,
+    seatingCapacity: 3,
+    price: 50,
+    rating: 4.9,
+    features: ['AC', 'Premium Music', 'GPS', 'Leather Seats'],
+  },
+  {
+    id: '4',
+    name: 'XL',
+    type: 'Large SUV',
+    image: 'https://images.unsplash.com/photo-1544636331-e26879cd4d9b?q=80&w=400&auto=format&fit=crop&ixlib=rb-4.0.3',
+    capacity: 8,
+    seatingCapacity: 6,
+    price: 45,
+    rating: 4.6,
+    features: ['AC', 'Music System', 'GPS', 'Large Space'],
+  },
+  {
+    id: '5',
+    name: 'Shared',
+    type: 'Hatchback',
+    image: 'https://images.unsplash.com/photo-1552519507-da3b142c6e3d?q=80&w=400&auto=format&fit=crop&ixlib=rb-4.0.3',
+    capacity: 4,
+    seatingCapacity: 2,
+    price: 15,
+    rating: 4.3,
+    features: ['AC', 'Music System', 'Shared Ride'],
+  },
+];
